@@ -1,0 +1,32 @@
+{
+  "name": "costumecloset-theatre",
+  "version": "1.0.0",
+  "description": "Costume Hire Management System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manib143218-cmd/CostumeCloset-Theatre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/manib143218-cmd/CostumeCloset-Theatre/issues"
+  },
+  "homepage": "https://github.com/manib143218-cmd/CostumeCloset-Theatre#readme",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
