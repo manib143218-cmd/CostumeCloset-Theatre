@@ -1,0 +1,14 @@
+const Database = require("better-sqlite3");
+const path = require("path");
+
+// Create or connect to the SQLite database
+const dbPath = path.join(__dirname, "costumecloset.db");
+
+const db = new Database(dbPath);
+
+// Enable foreign key relationships
+db.pragma("foreign_keys = ON");
+
+console.log("SQLite database connected successfully");
+
+module.exports = db;
